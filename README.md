@@ -88,3 +88,4 @@ live in `src/app/globals.css`; `cn()` is in `src/lib/utils.ts`.
   `jsx: "react-jsx"` (Next 16 automatic runtime) and injects `.next/**/types` globs.
 - Next 16 defaults to **Turbopack** for `dev` and `build`. Pass `--webpack` to opt out.
 - ESLint uses `eslint-config-next`'s native flat config (v16+); no `FlatCompat` shim.
+
