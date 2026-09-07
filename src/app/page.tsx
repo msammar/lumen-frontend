@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 export default function HomePage() {
   return (
-    <main className="mx-auto flex max-w-2xl flex-col items-start gap-4 p-8">
+    <div className="mx-auto flex max-w-2xl flex-col items-start gap-4">
       <h1 className="text-2xl font-semibold tracking-tight">
         Analytics Platform — frontend scaffold
       </h1>
@@ -11,6 +11,6 @@ export default function HomePage() {
         live under <code className="font-mono">src/features/</code>.
       </p>
       <Button>Primary action</Button>
-    </main>
+    </div>
   );
 }
